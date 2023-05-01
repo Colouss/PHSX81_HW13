@@ -10,6 +10,6 @@ grid = np.linspace(np.min(y), np.max(y), 1000) # Evaluate density at specific po
 estimated_density = density(grid)
 plt.hist(y, density=True, alpha=0.5) # Plot estimated density and dataset
 plt.plot(grid, estimated_density, color='red')
-plt.xlabel('x')
+plt.xlabel('y values generated')
 plt.ylabel('Density')
 plt.show()
